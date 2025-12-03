@@ -73,7 +73,7 @@ p.ex1{
 
 
 <h3 id="Abstract">Abstract</h3>
-<p class="ex1" id="Abstract_InText"  >
+<p class="ex1"  >
 
  
 Data refers to raw, unprocessed facts that are constantly being created or deleted. To discover meaningful trends or patterns in big data sets, data mining is a significant process used in many industries, notably in the business industry where customers’ data are used to optimise decision making. This article will focus on the different discussions of how the rapid development of technology throughout the years has contributed to the healthcare system. The reasons are that data mining is not only very supportive but important to the functions of the healthcare system. For example, x-rays and discovering conditions in the body the human eye cannot detect or seizure prediction devices that uses machine learning algorithms to analyse the brains activity. All of this provides information to prevents future risks. In result, it would be essential to discuss in detail how mining algorithms supports either machines or decision making. 
@@ -128,7 +128,7 @@ The main argument is that data mining algorithms were not commonly applied in th
 
 
  <h3 id="References">References</h3>
- <p class="ex1"   id="References_InText" >
+ <p class="ex1" >
 
   <br>
 Mustaf A, John O, Majd O, Zhinya O, Shaibu M, Don L, 2025, The ethics of data mining in healthcare: challenges, frameworks and future directions, Biodata mining, Vol.18, p47-16, Article 47, London BioMed Central.
@@ -229,10 +229,10 @@ Marco P, Elisabetta B, Davide A, Wil V, 2024, Advances in computational methods 
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const AbstractCount = displayWordCount("Abstract_InText");
+    const AbstractCount = displayWordCount(Abstract);
     const IntroductionCount = displayWordCount("Introduction_InText");
     const AnalysisCount = displayWordCount("Analysis_InText");
-    const ReferencesCount = displayWordCount("References_InText");
+    const ReferencesCount = displayWordCount(References);
     // Calculate the sum of all selected sections 
     const totalWordCount = AbstractCount + IntroductionCount + AnalysisCount + ReferencesCount;
     // Display the total word count
